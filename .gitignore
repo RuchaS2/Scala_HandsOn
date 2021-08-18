@@ -1,0 +1,28 @@
+#scala
+target
+*.class
+/src/test/
+
+# other?
+.history
+.scala_dependencies
+.cache-main
+
+#intellij
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+/.idea/
+/.bsp/
+
+### SBT ###
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.cache
+.lib/

@@ -46,12 +46,10 @@ var ab = Array (1,2,3,4,5,6,7,8,9,10)
 import Array._
 var myList1 = range(10, 20, 2)
 var myList2 = range(10,20)
-for(x1 <- myList1) println(x1)
-for(x2 <- myList2) println(x2)
 
 //Transforming Arrays
 val a = Array(2, 3, 5, 7, 11)
-val result = for (elem <- a) yield 2 * elem
+//val result = for (elem <- a) yield 2 * elem
 
 
 //Array Methods
@@ -64,7 +62,7 @@ var myList3 =  concat( myList1, myList2)
 
 val a = Array(1, 7, 2, 9)
 scala.util.Sorting.quickSort(a)
-for(x2 <- a) println(x2)
+//for(x2 <- a) println(x2)
 
 a.mkString(" and ")
 a.mkString("<", ",", ">")
