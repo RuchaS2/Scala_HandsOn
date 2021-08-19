@@ -41,9 +41,7 @@ def sum(args:Int*) = {
 sum(1,2,3,4,5)
 
 //Higher Order functions -----------------------------------------
-/*
-take fn as parameters
- */
+/*take fn as parameters*/
 val double = (i:Int) => i * 2 //fn that double the val
 def higherOrder(x:Int , y:Int=>Int) = y(x)
 // param is y and fn is also y

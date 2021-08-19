@@ -1,33 +1,33 @@
 //data types --------------------------------------
-  val num = 5
-  val decimal = 5.2567
-  var x = 1 + 2 * 3.5
-  List(1, 2, 4.5)
-  List(1, true)
-  List(1, true, "one")
+val num = 5
+val decimal = 5.2567
+var x = 1 + 2 * 3.5
+List(1, 2, 4.5)
+List(1, true)
+List(1, true, "one")
 
-  def addOne(x:Int) = x + 1
-  def function1(x:Int) = if(x>0) 1 else "negative"
+def addOne(x:Int) = x + 1
+def function1(x:Int) = if(x>0) 1 else "negative"
 
-    var greeting, message:String = null
+var greeting, message:String = null
 
-    val list1 = List(1, 2, 3)
-    val list2 = List(1, 2, 3.0)
-    val list3 = List(1, 2, true)
-    val list4 = List(1, 2, true, "one")
+val list1 = List(1, 2, 3)
+val list2 = List(1, 2, 3.0)
+val list3 = List(1, 2, true)
+val list4 = List(1, 2, true, "one")
 
-    var a = 10.toString()
-    var b = 10.to(20)
+var a = 10.toString()
+var b = 10.to(20)
 
-    var c = 10.+(11)
-    var d = 10 to 20
-    0 until 10
-    var e = 10 + 11
-    var f = 97.toChar
-    var g = 85.97.toInt
+var c = 10.+(11)
+var d = 10 to 20
+0 until 10
+var e = 10 + 11
+var f = 97.toChar
+var g = 85.97.toInt
 
-    a += " ten"
-    println(a)
+a += " ten"
+println(a)
 
 //Arithmetic operations
 var x = 3
