@@ -16,7 +16,7 @@ target
 /.idea/
 /.bsp/
 
-### SBT ###
+### SBT ##
 dist/*
 target/
 lib_managed/
