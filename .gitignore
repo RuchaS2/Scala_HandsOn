@@ -1,7 +1,6 @@
 #scala
 target
 *.class
-/src/test/
 
 # other?
 .history
