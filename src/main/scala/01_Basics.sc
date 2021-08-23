@@ -63,23 +63,7 @@ var word = "Monday"
 for(x <- 0 until word.length)
   println(word(x))
 
-//Scala_impatient exercise
-//Q1.
-sqrt(3)*sqrt(3)
 
-//Q2
-2+3
-// res16=2 - not allowed - res values are val
-
-//Q3
-"crazy"*3
-
-//Q4
-10 max 2
-
-//Q5
-var i:BigInt = pow(2,1024)
-print(i)
 
 
 
