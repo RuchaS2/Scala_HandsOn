@@ -9,6 +9,7 @@ Benefits of Pure Functions -
 	• Pure functions are easy to test and refactor
  */
 object Aug24_Pure_fns extends App{
+
     //pure function that doubles the input value it’s given
     def multiplyByTwo(i : Int): Int = { i * 2 }
 
