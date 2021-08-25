@@ -39,4 +39,11 @@ object Currying_Function extends  App{
     val sum2 = add3(x)_
     return sum2(y)
   }
+
+  //Partially Applied fn
+  //fixed first 2 args, third arg as wildcard
+  val sum = (a:Int, b:Int , c:Int) => a+b+c
+  val f = sum(10,20,_: Int)
+  println(f(30))
 }
+
