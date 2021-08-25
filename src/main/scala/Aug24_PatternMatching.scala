@@ -20,18 +20,18 @@ object Aug24_PatternMatching {
    */
   def checkType(x: Any) = {
     x match {
-      case i: Integer => "It's an Integer = " + i
-      case s: String  => "It's an String = " + s
-      case d: Double  => "It's a double = " + d
+      case i: Integer => "Int = " + i
+      case s: String  => "String = " + s
+      case d: Double  => "Double = " + d
       case _          => "Oops! Something Else"
     }
   }
 
   // method containing match keyword
-  def test(x:Int): String = x match {
-    case 0 => "Hello, World!!"
-    case 1 => "Are you learning Scala?"
-    case _ => "Oops! Something Else"
+  def usingMatch(x:Int): String = x match {
+    case 0 => "zero"
+    case 1 => "one"
+    case _ => "Other"
   }
 
   /*
@@ -47,4 +47,23 @@ object Aug24_PatternMatching {
   def unapply(z: Double): Option[Double] =
     if (z % 5 == 0) {Some(z/5)}
     else None
+
+  def main(args: Array[String])
+  {
+
+    // Assigning value to the object
+    val x = Aug24_PatternMatching(25)
+
+    // Displays output of the Apply method
+    println(x)
+
+    // Applying pattern matching
+    x match
+    {
+      // unapply method is called
+      case Aug24_PatternMatching(y) => println("The value is: "+y)
+      case _ => println("Can't be evaluated")
+
+    }
+  }
 }
