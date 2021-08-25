@@ -2,6 +2,11 @@
 Currying function -
 Currying in Scala is simply a technique or a process of transforming a function
 that takes multiple arguments into a function that takes single argument.
+
+Partially Applied functions -
+while invoking a function, we can supply some of the arguments and the left arguments are supplied when required.
+These arguments which are not passed to function we use hyphen( _ ) as placeholder.
+
 */
 
 object Currying_Function extends  App{
