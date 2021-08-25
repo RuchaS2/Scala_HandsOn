@@ -1,0 +1,3 @@
+object Currying_Function {
+
+}
