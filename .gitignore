@@ -25,3 +25,7 @@ project/boot/
 project/plugins/project/
 .cache
 .lib/
+
+**/.DS_Store
+project
+out*
